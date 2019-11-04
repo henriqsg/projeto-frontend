@@ -16,9 +16,12 @@
   float: left;
   padding: 1em;
 }
+.menu-wrap ul.menu li:hover {
+  background-color: #7ea97e;
+  cursor: pointer;
+}
 .menu-wrap ul.menu li a {
   display: block;
-  height: 59px;
   overflow: hidden;
 }
 

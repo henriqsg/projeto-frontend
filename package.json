@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/henriqsg/projeto-frontend/issues"
   },
-  "homepage": "https://github.com/henriqsg/projeto-frontend#readme"
+  "homepage": "https://github.com/henriqsg/projeto-frontend#readme",
+  "dependencies": {
+    "sass": "^1.23.3"
+  }
 }

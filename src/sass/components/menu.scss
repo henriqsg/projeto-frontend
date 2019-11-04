@@ -17,10 +17,13 @@
             li {
                 float:left;
                 padding: 1em;
-
+                
+                &:hover {
+                    background-color: #7ea97e;
+                    cursor: pointer;
+                }
                 a {
                     display: block;  
-                    height:59px;  
                     overflow:hidden;
                 }
             }
