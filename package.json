@@ -20,5 +20,8 @@
   "homepage": "https://github.com/henriqsg/projeto-frontend#readme",
   "dependencies": {
     "sass": "^1.23.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
   }
 }

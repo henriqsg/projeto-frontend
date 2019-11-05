@@ -67,4 +67,40 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.footer-wrap {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 63px;
+}
+.footer-wrap ul img.logo {
+  block-size: 3.2em;
+  padding-right: 2em;
+}
+.footer-wrap ul.footer {
+  width: 600px;
+  height: 59px;
+  float: left;
+  margin: 0;
+  padding-top: 5px;
+  list-style-type: none;
+}
+.footer-wrap ul.footer li {
+  float: right;
+  padding: 1em;
+}
+.footer-wrap ul.footer li:hover {
+  background-color: #7ea97e;
+  cursor: pointer;
+}
+.footer-wrap ul.footer li a {
+  display: block;
+  overflow: hidden;
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */

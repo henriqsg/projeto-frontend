@@ -1,0 +1,43 @@
+.footer-wrap {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $color-theme;
+    color: $font-color;
+    text-align: center;
+    height:63px;
+    
+        ul {
+            
+            img {
+                &.logo {
+                    block-size: 3.2em;
+                    padding-right: 2em;
+                }
+            }
+            &.footer {
+                width:600px;  
+                height:59px;  
+                float:left;
+                margin:0;  
+                padding-top:5px;  
+                list-style-type:none;
+    
+                li {
+                    float:right;
+                    padding: 1em;
+                    
+                    &:hover {
+                        background-color: #7ea97e;
+                        cursor: pointer;
+                    }
+                    a {
+                        display: block;  
+                        overflow:hidden;
+                        color: $font-color;
+                    }
+                }
+            }
+        }  
+    }
