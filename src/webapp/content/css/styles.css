@@ -2,7 +2,7 @@
   width: 100%;
   height: 63px;
   position: relative;
-  background-color: darkseagreen;
+  background-color: black;
 }
 .menu-wrap ul.menu {
   width: 600px;
@@ -23,6 +23,7 @@
 .menu-wrap ul.menu li a {
   display: block;
   overflow: hidden;
+  color: white;
 }
 
 .card {
@@ -60,6 +61,10 @@
   clear: right;
   text-align: center;
   margin-top: 5em;
+}
+
+.site-header {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=styles.css.map */
