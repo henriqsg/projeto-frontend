@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "sass src/sass/main.scss src/webapp/css/styles.css --watch",
+    "dev": "sass src/sass/main.scss src/webapp/content/css/styles.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
